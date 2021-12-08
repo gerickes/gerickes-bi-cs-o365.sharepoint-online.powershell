@@ -712,8 +712,8 @@ function Add-LogFileToSpo {
         [Parameter(Mandatory = $true)]
         [HashTable] $GraphApiHeader,
 
-        [Parameter(Mandatory = $true)]
-        [HashTable] $GraphApiBaseUrl
+        [Parameter(Mandatory = $false)]
+        [String] $GraphApiBaseUrl = "https://graph.microsoft.com/v1.0"
     )
     $split = $LogFile.Split("\")
     $fileName = $split[$split.Length - 1]

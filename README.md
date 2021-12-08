@@ -62,6 +62,6 @@ Stefan Gericke - *Initial work* - Boehringer Ingelheim - <stefan.gericke@boehrin
 [Bitbucket Repo]: https://portal.azure.com/#@e1f8af86-ee95-4718-bd0d-375b37366c83/resource/subscriptions/59f03347-1c98-4abb-bfd8-4f329cf6349d/resourceGroups/eds-ccm-m365-automation-westeurope-prod-5f58710b-rg/
 
 <!-- Shields -->
-[Version]: https://img.shields.io/badge/Boehringer.ITEDS.SharePoint.PowerShell-Version%200.1.0-blue?style=flat-square
+[Version]: https://img.shields.io/badge/Boehringer.ITEDS.SharePoint.PowerShell-Version%200.1.1-blue?style=flat-square
 [Language]: https://img.shields.io/badge/Language-PowerShell-blue?logo=powershell&style=flat-square
 [Platform]: https://shields.io/badge/Platform-Azure%20Automation-blue?logo=azurefunctions&style=flat-square
