@@ -710,12 +710,15 @@ function Add-LogFileToSpo {
         [String] $LogFile,
 
         [Parameter(Mandatory = $true)]
-        [HashTable] $GraphApiHeader
+        [HashTable] $GraphApiHeader,
+
+        [Parameter(Mandatory = $true)]
+        [HashTable] $GraphApiBaseUrl
     )
     $split = $LogFile.Split("\")
     $fileName = $split[$split.Length - 1]
 
-    $uri = "$global:graphApiBaseUrl/drives/$DriveId/root:/$Folder/$($fileName):/content"
+    $uri = "$GraphApiBaseUrl/drives/$DriveId/root:/$Folder/$($fileName):/content"
 
     try {
         $response = Invoke-RestMethod -Uri $uri -Headers $GraphApiHeader -Method Put -InFile $logFile -ContentType "application/txt"
