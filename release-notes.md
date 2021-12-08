@@ -22,6 +22,8 @@ Commits in Bitbucket of *master* branch: [Commits](https://bitbucket.biscrum.com
 
 [![Download]](https://bitbucket.biscrum.com/projects/SPO/repos/bi-cs-o365.sharepoint-online.powershell/browse/release/Boehringer.ITEDS.SharePoint.PowerShell.zip?at=refs%2Ftags%2Fv0.1.1)
 
+PullRequest of this release in Bitbucket: [Release 0.1.1](https://bitbucket.biscrum.com/projects/SPO/repos/bi-cs-o365.sharepoint-online.powershell/pull-requests/1/overview)
+
 ### v0.1.0 - December 8th, 2021
 
 New:
